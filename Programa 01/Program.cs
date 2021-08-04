@@ -24,6 +24,10 @@ namespace Programa_01
             Console.WriteLine();
             Console.WriteLine("Registro: "+ idade +" anos de idade, código:" + codigo + "e gênero: " + genero);
             Console.WriteLine();
+
+
+
+
             Console.WriteLine("Medida com 8 casas decimais: " + medida.ToString("F8"));
             Console.WriteLine("Arredondado (Três casas decimais): " + medida.ToString("F3"));
             Console.WriteLine("Separador decimal invariant culture: "+ medida.ToString("F3", CultureInfo.InvariantCulture));
